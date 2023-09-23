@@ -1,0 +1,220 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curious</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500;600&display=swap');
+        @font-face {
+            font-family: 'Bold';
+            src: url(fontes/THEBOLDFONT.ttf) format(truetype);
+            font-weight: bold;
+        }
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: var(--color01);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        :root {
+            --color01: #5684E1;
+            --color02: #1255DB;
+            --colortitulo: #7099eb;
+            --color03: #0D41A8;
+            --color04: #23365C;
+            --color05: #121c30;
+
+            --fonte-titulo: 'Bold', 'sans-serif';
+        }
+
+        header {
+            background-color: var(--color04);
+        }
+
+
+        header > h1 {
+            font-family: var(--fonte-titulo);
+            font-size: 4em;
+            color: var(--colortitulo);
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-shadow: 4px 3px 5px black;
+        }
+
+        nav {
+            font-size: 20px;
+            padding-bottom: 10px;
+            font-family:'Josefin Sans', sans-serif;
+            font-weight: normal;
+            color: white;
+            padding-bottom: 10px;
+        }
+
+        nav > a{
+            margin: 10px 10px;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        nav > a:hover {
+            transition-duration: 0.3s;
+            background-color: #1255DB;
+        }
+
+        main {
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.555);
+            font-size: 1.1em;
+            font-weight: lighter;
+            background-color: white;
+            line-height: 2em;
+            list-style: inside;
+        }
+
+        main > p {
+            text-align: justify;
+            padding: 0px 51px 0px 53px;
+            text-indent: 13px;
+        }
+
+        ul {
+            border-radius: 10px;
+            text-align: left;
+            color: white;
+            background-color: #40547c;
+            margin: 20px 53px;
+        }
+
+        main > ul {
+            padding: 0px 51px 0px 16px;
+        }
+
+        main h1 {
+            font-weight: 600;
+            font-size: 3em;
+        }
+
+        main h2 {
+            font-weight: 500;
+            font-size: 2em;
+        }
+
+        main h1, h2 {
+            color: var(--color05);
+            font-family: 'Teko', sans-serif;
+            padding: 0px 15px 0px 54px;
+            line-height: 2.5em;
+        }
+
+        main strong {
+            padding: 3px 3px;
+            color: #23365C;
+            background-color: #567fd1;
+        }
+
+        main img {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: block;
+            width: 350px;
+            margin: auto;
+        }
+
+        main aside {
+            font-family:'Josefin Sans', sans-serif;
+            font-weight: normal;
+            font-size: 1.1em;
+            text-align: center;
+            padding: 30px 8px 30px 8px;
+        }
+
+
+        footer {
+            font-size: 1.2em;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            text-align: center;
+            color: #7099eb;
+            background-color: #121c30;
+        }
+
+        #criador {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>Curious</h1>
+
+        <nav>
+            <a href="">Blog</a>
+            <a href="">Facebook</a>
+            <a href="">Email</a>
+            <a href="">Instagram</a>
+        </nav>
+    </header>
+
+    <main class=".container">
+        <h1>Universo</h1>
+
+        <p>
+            O <strong>universo</strong> é um vasto e misterioso espaço que se estende para além da nossa compreensão. Contendo bilhões de galáxias, estrelas, planetas e fenômenos cósmicos inimagináveis, ele é um verdadeiro laboratório natural que desafia nossa compreensão da física e da existência. Desde a explosão primordial do <strong>Big Bang</strong> até as órbitas graciosas dos planetas em nosso próprio sistema solar, o universo é um espetáculo de beleza e complexidade que inspira a curiosidade e a exploração incessante dos cientistas e dos seres humanos em geral.
+        </p>
+
+           <p>
+            À medida que expandimos nossos horizontes e investigamos os segredos do <strong>espaço sideral</strong>, descobrimos não apenas a vastidão infinita do <strong>universo</strong>, mas também nossa própria pequenez em relação a ele. O universo nos desafia a explorar, aprender e contemplar nosso lugar nele, ao mesmo tempo em que nos fornece insights profundos sobre a natureza fundamental da realidade e da vida. É um reino de maravilhas cósmicas que nos lembra constantemente de quão infinitamente intrigante e enigmático é o mundo em que vivemos.
+           </p>
+           
+           <img src="imagens/universe-padrao.jpg" alt="imagem universo">
+
+            <h2>Algumas curiosidades sobre o universo:</h2>
+
+            <ul>
+                <li>O universo é vasto: O universo observável tem um diâmetro estimado de cerca de 93 bilhões de anos-luz, tornando-o incrivelmente vasto e expansivo.</li>
+
+                <li>Muitas galáxias: Há mais de 100 bilhões de galáxias no universo observável, cada uma contendo bilhões de estrelas.</li>
+
+                <li>A expansão cósmica: O universo está em constante expansão desde o Big Bang, fazendo com que as galáxias se afastem umas das outras.</li>
+
+                <li>O tempo de luz: A luz do Sol leva cerca de 8 minutos e 20 segundos para chegar à Terra, o que significa que quando olhamos para o Sol, estamos vendo-o como ele era há mais de 8 minutos.</li>
+
+                <li>Buracos negros: Buracos negros são regiões do espaço onde a gravidade é tão intensa que nada pode escapar de sua atração, nem mesmo a luz.</li>
+
+                <li>Estrelas de nêutrons: Estrelas de nêutrons são os núcleos colapsados de estrelas massivas e são incrivelmente densas. Uma colher de chá de material de uma estrela de nêutrons pesaria bilhões de toneladas na Terra.</li>
+
+                <li>Matéria escura: Acredita-se que a matéria escura, uma forma de matéria invisível, compõe cerca de 27% da massa e energia total do universo, mas sua natureza exata é ainda um mistério.</li>
+
+                <li>Raios cósmicos: Partículas subatômicas de alta energia, conhecidas como raios cósmicos, bombardeiam constantemente a Terra vindo do espaço profundo.</li>
+
+                <li>Exoplanetas: Astrônomos já descobriram milhares de exoplanetas (planetas fora do nosso sistema solar) e continuam a procurar por mundos potencialmente habitáveis.</li>
+
+                <li>A idade do universo: Acredita-se que o universo tenha aproximadamente 13,8 bilhões de anos, de acordo com observações detalhadas do fundo cósmico de micro-ondas, uma radiação remanescente do Big Bang.</li>
+            </ul>
+
+            <aside>
+                <h3>
+                    Essas curiosidades ilustram a vastidão, complexidade e maravilhas do universo que nos rodeia.
+                </h3>
+            </aside>
+        
+    </main>
+
+    <footer>
+        <p>Criado por <a href="" id="criador">Renan Henrique</a></p>
+    </footer>
+    
+ </body>
+ </html>
